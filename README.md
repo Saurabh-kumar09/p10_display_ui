@@ -1,6 +1,11 @@
 # p10_display_ui
 
-A new Flutter project.
+An IoT application built using Flutter & HTTP protocol.
+
+## How the System Works:
+1. The Flutter app takes an ESP8266 IP address and a message as input.
+2. It sends an HTTP GET request to the ESP8266 server with the message appended as a query parameter.
+3. The ESP8266 server receives the request, retrieves the message, and initiates scrolling the message on the LED matrix display.
 
 ## Getting Started
 
